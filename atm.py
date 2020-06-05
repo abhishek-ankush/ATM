@@ -35,6 +35,7 @@ print("Welcome to ATM")
 pin = int(input("Please enter your pin:"))
 pincheck(pin)
 t = Transaction("abhishek", pin, balance)
+# To run the loop infinite times
 while(True):
     print(" 1. Current Balance \n 2. Deposit Money \n 3. Withdraw Money \n 4. Exit.")
     no=int(input("Enter your choice number\n"))
